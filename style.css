@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #2e7825;
+    width: 500px;
+    height: 500px;
+}
+.child{
+    border: 1px solid red;
+    width: 85px;
+    height: 100px;
+
+}
